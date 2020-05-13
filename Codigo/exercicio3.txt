@@ -1,0 +1,14 @@
+Algoritimo exercicio3
+Var
+	numPosi: inteiro
+	raiz: inteiro
+	quadrado: inteiro
+Inicio
+	Escreva ("Digite um numero: ")
+	Leia (numPosi)
+	quadrado <- sqrt("numPosi")
+	raiz <- sqr(numPosi)
+	Escreva ("O número elevado ao quadrado é: ", quadrado)
+	Escreva ("A raiz quadrada do numero é: ", raiz)
+Fim
+

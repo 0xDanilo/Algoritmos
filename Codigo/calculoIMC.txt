@@ -1,0 +1,27 @@
+Algoritimo calculoIMC
+var
+    peso, altura, imc: real
+Inicio
+    Escreva("Digite o seu peso")
+    Leia (peso)
+    Escreva("Digite sua altura")
+    Leia (altura)
+    imc <- peso/sqr (altura)
+    Se ( imc > 20) então
+        Escreva ("Abaixo do peso ideal.")
+    Senão 
+        Se (imc >= 25) então
+            Escreva ("Peso normal")
+        Senao
+            Se (imc <= 30) então
+                Escreva ("Excesso de peso.")
+            Senão
+                Se (imc <= 35)
+                    Escreva ("Obesidade.")
+                Senão
+                    Escreva ("Obesidade morbida.")
+                Fim_se
+            Fim_se
+        Fim_se
+    Fim_se
+Fim

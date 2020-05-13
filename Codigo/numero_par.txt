@@ -1,0 +1,11 @@
+Algoritimo par
+Var
+    numero: inteiro
+Inicio
+    Escreva ("Digite um número: ")
+    Leia (numero)
+    
+    Se (numero MOD 2 = 0) então
+        Escreva ("A metade do numero é: ", numero/2)
+    Fim_se
+Fim

@@ -1,0 +1,19 @@
+Algoritimo maiorOuMenor
+Var
+    nome: vetor [1..30] de caracteres
+    idade: inteiro
+Inicio
+    Escreva ("Qual o seu nome? ")
+    Leia (nome)
+    Escreva (Qual a sua idade? ")
+    Leia (idade)
+Se (idade >= 65) então
+        Escreva (nome, " é idoso.)
+    Senão
+        Se (idade < 18) então
+            Escreva (nome, " é menor.")
+            Senão
+                Escreva (nome, " é maior.")
+            Fim_se
+    Fim_se
+Fim

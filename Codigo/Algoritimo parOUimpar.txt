@@ -1,0 +1,14 @@
+Algoritimo parOUimpar
+Var
+    numero: inteiro
+Inicio
+    Escreva("Digite um numero: ")
+    Leia (numero)
+    Se (numero MOD 2 = 0) então
+    Escreva ("Esse é um numero par.")
+    Senão
+    Escreva ("Esse é um numero par.")
+    Fim_se
+Fim
+
+
