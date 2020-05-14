@@ -7,10 +7,10 @@ Inicio
     Escreva("Digite sua altura")
     Leia (altura)
     imc <- peso/sqr (altura)
-    Se ( imc > 20) então
+    Se ( imc < 20) então
         Escreva ("Abaixo do peso ideal.")
     Senão 
-        Se (imc >= 25) então
+        Se (imc <= 25) então
             Escreva ("Peso normal")
         Senao
             Se (imc <= 30) então
