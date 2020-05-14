@@ -6,4 +6,4 @@ function entre20e90(numero){
     }
   }
 
-  //Para testar o número basta passá-lo atráves da função "entre20e90()"
+  //Para testar o número basta passá-lo atráves da função "entre20e90(12)"
