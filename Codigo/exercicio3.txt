@@ -1,4 +1,4 @@
-Algoritimo exercicio3
+Algoritmo exercicio3
 Var
 	numPosi: inteiro
 	raiz: inteiro

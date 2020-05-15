@@ -1,5 +1,5 @@
 /*  
-    Implementaçãoo do Algoritimo Calculo de IMC
+    Implementaçãoo do Algoritmo Calculo de IMC
 */
 
  //Função que calcula o IMC

@@ -1,4 +1,4 @@
-Algoritimo numeroParaMes
+Algoritmo numeroParaMes
 Var
     numero: inteiro
 Inicio

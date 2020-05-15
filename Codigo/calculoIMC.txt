@@ -1,4 +1,4 @@
-Algoritimo calculoIMC
+Algoritmo calculoIMC
 var
     peso, altura, imc: real
 Inicio

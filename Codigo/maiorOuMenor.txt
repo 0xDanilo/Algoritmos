@@ -1,4 +1,4 @@
-Algoritimo maiorOuMenor
+Algoritmo maiorOuMenor
 Var
     nome: vetor [1..30] de caracteres
     idade: inteiro

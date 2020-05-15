@@ -1,4 +1,4 @@
-Algoritimo parOUimpar
+Algoritmo parOUimpar
 Var
     numero: inteiro
 Inicio

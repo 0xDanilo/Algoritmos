@@ -1,4 +1,4 @@
-Algoritimo entre20e90
+Algoritmo entre20e90
 Var
     numero: inteiro
 Inicio
