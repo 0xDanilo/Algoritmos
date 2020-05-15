@@ -1,5 +1,5 @@
 /*  
-    Implementaçãoo do Algoritmo Calculo de IMC
+    Implementação do Algoritmo Calculo de IMC
 */
 
  //Função que calcula o IMC
@@ -25,6 +25,6 @@ if (resultadoIMC < 20) {
 } else if (resultadoIMC <= 35) {
     alert("Obesidade.");
 }else {
-    alert("Obesidade morbida.");
+    alert("Obesidade mórbida.");
 }
 

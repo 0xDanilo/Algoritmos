@@ -1,6 +1,6 @@
 # Algoritmos I e II
 
-Repositório para o aprendizado das diciplinas Algoritmos I e II. 
+Repositório para o aprendizado das disciplinas Algoritmos I e II. 
 
 ## Sintaxe
 
