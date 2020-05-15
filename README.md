@@ -1,6 +1,6 @@
 # Algoritmos I e II
 
-Repositório para o aprendizado das disciplinas Algoritmos I e II. 
+[Repositório](https://github.com/0xDanilo/Algoritmos/tree/master/Codigo) para o aprendizado das disciplinas Algoritmos I e II. 
 
 ## Sintaxe
 
