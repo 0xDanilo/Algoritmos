@@ -1,0 +1,24 @@
+Algoritmo comissaoVendas
+Var
+    matricula: inteiro
+    nome: vetor [1... 40] de caractere
+    salarioFixo, totalVendas, salarioTotal: real
+Inicio
+    Escreva ("Insira a sua matricula:")
+    Leia(matricula)
+    Escreva ("Digite o seu nome:")
+    Leia(nome)
+    Escreva ("Digite o seu salário:")
+    Leia (salarioFixo)
+    Escreva (Digite o valor total das vendas")
+    Leia (totalVendas)
+
+Se (totalVendas < 1.500) então
+    salarioTotal <- salarioFixo * 1,02
+Senão
+    salarioTotal <- salarioFixo * 1,04
+Fim_se
+Escreva("Matrícula: ", matricula)
+Escreva("Nome: ", nome)
+Escreva("Salário fixo: ", salarioFixo)
+Escreva("Salário total: ", salarioTotal)
