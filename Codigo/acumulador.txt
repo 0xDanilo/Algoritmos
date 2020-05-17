@@ -4,7 +4,7 @@ Var
 Inicio
     soma <- 0
     Para i de 1 até 10 passo 1 faça
-        soma = soma + 1
+        soma = soma + i
     Fim_para
     Escreva ("Resultado: ", soma)
 Fim

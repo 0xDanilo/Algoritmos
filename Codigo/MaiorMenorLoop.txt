@@ -1,0 +1,17 @@
+Algoritmo MaiotMenorLoop
+Var
+    valorNumerico, i, maiorNum: real
+Inicio
+    valorNumerico <- 0
+    maior <- 0
+    Para i de 0 até 5 passo 1 faça
+      Escreva("Digite um numero: ")
+      Leia(valorNumerico)
+      Se valorNumerico > maiorNum faça
+        maiorNum <- valorNumerico
+      Senão
+        maiorNum = maiorNum
+      Fim_se
+    Fim_para
+    Escreva ("O maior numero digitado é: ", maior)
+  Fim
