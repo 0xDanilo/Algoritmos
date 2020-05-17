@@ -1,0 +1,10 @@
+Algoritmo acumulador
+Var
+    soma, i: inteiro
+Inicio
+    soma <- 0
+    Para i de 1 até 10 passo 1 faça
+        soma = soma + 1
+    Fim_para
+    Escreva ("Resultado: ", soma)
+Fim

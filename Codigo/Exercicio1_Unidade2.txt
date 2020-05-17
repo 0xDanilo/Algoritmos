@@ -12,13 +12,13 @@ Inicio
     Leia (salarioFixo)
     Escreva (Digite o valor total das vendas")
     Leia (totalVendas)
-
-Se (totalVendas < 1.500) então
-    salarioTotal <- salarioFixo * 1,02
-Senão
-    salarioTotal <- salarioFixo * 1,04
-Fim_se
-Escreva("Matrícula: ", matricula)
-Escreva("Nome: ", nome)
-Escreva("Salário fixo: ", salarioFixo)
-Escreva("Salário total: ", salarioTotal)
+    Se (totalVendas < 1.500) então
+        salarioTotal <- salarioFixo * 1,02
+    Senão
+        salarioTotal <- salarioFixo * 1,04
+    Fim_se
+    Escreva("Matrícula: ", matricula)
+    Escreva("Nome: ", nome)
+    Escreva("Salário fixo: ", salarioFixo)
+    Escreva("Salário total: ", salarioTotal)
+Fim

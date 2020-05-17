@@ -1,0 +1,10 @@
+Algoritmo tabuadaDo3
+var
+    tabuada, i: inteiro
+Inicio
+    tabuada <- 0
+    Para i = 0 até 10 passo 1 faça
+        tabuada = i * 3
+        Escreva ("Resultado = ", tabuada)
+    Fim_para
+Fim
