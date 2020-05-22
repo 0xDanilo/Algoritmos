@@ -1,7 +1,7 @@
 multiplicador = input("Digite o multiplicador da tabuada: ")
 multiplicador = int(multiplicador)
 
-for value in range(0, 11):
-    resultado = value * multiplicador
-    print(f"Resultado {multiplicador} x {value} = {resultado}")
+for i in range(0, 11):
+    resultado = i * multiplicador
+    print(f"Resultado {multiplicador} x {i} = {resultado}")
     pass
