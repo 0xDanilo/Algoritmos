@@ -16,7 +16,7 @@ int main() {
  for (int contador = 0; contador < 3; contador++)
  {
  	puts("Informe o nomer do aluno: ");
- 	scanf("%s", nome[contador]); //Eis a outra questão.
+ 	scanf("%10s", nome[contador]); //Eis a outra questão.
 
  	puts("Informa a nota 1: ");
  	scanf("%f", &n1[contador]);
@@ -40,7 +40,7 @@ int main() {
  	printf("Nota 2: %.2f\n", n2[contador]);
  	printf("Nota 3: %.2f\n", n3[contador]);
  	printf("Nota 4: %.2f\n", n4[contador]);
- 	printf("Média: %.2f .\n", media[contador]);
+ 	printf("Média: %.2f\n", media[contador]);
 
  }
 
