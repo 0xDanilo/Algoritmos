@@ -18,13 +18,13 @@ console.log(resultadoIMC); //Mostra o resultado do calculo no console.
 //Compara o resultado do calculo e retorna a mensagem de acordo com a condição do IMC.
 if (resultadoIMC < 20) {
     alert("Abaixo do peso ideal");
-} else if (resultadoIMC <= 25) {
-    alert("Peso normal");
-} else if( resultadoIMC <= 30){ 
-    alert("Excesso de peso.");
-} else if (resultadoIMC <= 35) {
-    alert("Obesidade.");
-}else {
-    alert("Obesidade mórbida.");
-}
+	} else if (resultadoIMC <= 25) {
+		alert("Peso normal");
+		} else if( resultadoIMC <= 30){ 
+    		alert("Excesso de peso.");
+			} else if (resultadoIMC <= 35) {
+    			alert("Obesidade.");
+				} else {
+    				alert("Obesidade mórbida.");
+    		}
 

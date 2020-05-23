@@ -1,7 +1,7 @@
 /*
     Repetição: Enquanto e Para
 */
-
+/*jshint esversion: 6 */
 //Declara as variáveis.
 let resultado = 1;
 let resultado2 = 1;
