@@ -26,5 +26,4 @@ if (resultadoIMC < 20) {
     			alert("Obesidade.");
 				} else {
     				alert("Obesidade mórbida.");
-    		}
-
+    				}
