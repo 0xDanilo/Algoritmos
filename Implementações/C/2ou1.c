@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 int main() {
-    int andre, carlos, prietro;
+    int andre, carlos, pietro;
     bool jogadaValida;
 
     puts("Doooooois ou um!!\n");
@@ -42,10 +42,10 @@ int main() {
     do
     {
         puts("Digite o valor 1 ou 2 para Pietro: ");
-        scanf("%d", &prietro);
+        scanf("%d", &pietro);
         jogadaValida = true;
 
-        if (prietro != 1 && prietro != 2) {
+        if (pietro != 1 && pietro != 2) {
             jogadaValida = false;
             puts("Digite apenas 1 ou 2!!\n");
         } 
@@ -54,23 +54,23 @@ int main() {
 
 //Faz as conparações e imprime o vencedor:
 
-    if (andre == 1 && carlos == 1 && prietro == 2) {
+    if (andre == 1 && carlos == 1 && pietro == 2) {
         puts("Pietro é o vencedor!!");    
         }
-        else if (andre == 2 && carlos == 2 && prietro == 1 ) {
+        else if (andre == 2 && carlos == 2 && pietro == 1 ) {
             puts("Pietro é o vencedor!!");
             }
-            else if (andre == 1 && carlos == 2 && prietro == 1)
+            else if (andre == 1 && carlos == 2 && pietro == 1)
                {
                 puts("Carlos é o vencedor!!");
                 }
-                 else if (andre == 2 && carlos == 1 && prietro == 2){
+                 else if (andre == 2 && carlos == 1 && pietro == 2){
                     puts("Carlos é o vencedor!!");
                     }
-                      else if (andre == 1 && carlos == 2 && prietro == 2){
+                      else if (andre == 1 && carlos == 2 && pietro == 2){
                         puts("Andre é o vencedor!!");
                         }
-                         else if (andre == 2 && carlos == 1 && prietro == 1){
+                         else if (andre == 2 && carlos == 1 && pietro == 1){
                          	puts("Andre é o vencedor!!");
                         	}
                          	else {
