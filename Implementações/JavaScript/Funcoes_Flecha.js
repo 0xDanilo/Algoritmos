@@ -18,7 +18,7 @@ console.log("O IMC é", arredondaNumero1(resultado1));
 
 /***********************************************************************************/
 
-//Funções Flecha são podem ser usadas quando a função restorna apenas 1 argumento:
+//Funções Flecha podem ser usadas quando a função restorna apenas 1 argumento:
 const calculoIMC2 = (peso, altura) => peso/(Math.pow(altura, 2));
 // Essa função arredonda o resultado.
 const arredondaNumero2 = (numero) => (Math.round((numero + Number.EPSILON) * 100) / 100);
