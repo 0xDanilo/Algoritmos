@@ -1,12 +1,13 @@
+# Ignore tudo:
+*
 
-.DS_Store
-Implementações/C/CalculoDePotenciaLoops
-Implementações/C/calculoIMC
-Implementações/C/Repita
-Implementações/C/media_notas
-Implementações/C/funcao_MaiorNumero
-Implementações/C/Pointers
-Implementações/Rust/tabuada
-Implementações/C/EntendoArraysComPara
-Implementações/C/2ou1.c
-Implementações/C/Fibonacci
+# Exceto...
+!.gitignore
+!*.js
+!*.c
+!*.rs
+!*.py
+!*.md
+!*.txt
+
+# etc...
