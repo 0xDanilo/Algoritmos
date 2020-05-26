@@ -52,7 +52,7 @@ int main() {
 
     } while (jogadaValida != true);
 
-//Faz as conparações e imprime o vencedor:
+//Faz as comparações e imprime o vencedor:
 
     if (andre == 1 && carlos == 1 && pietro == 2) {
         puts("Pietro é o vencedor!!");    
@@ -74,7 +74,7 @@ int main() {
                          	puts("Andre é o vencedor!!");
                         	}
                          	else {
-								puts("Empatooooouuuu!!!");
+                                puts("Empatooooouuuu!!!");
 								}
 
     return 0;
