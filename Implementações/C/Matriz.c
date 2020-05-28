@@ -20,7 +20,7 @@ e popular a matriz com diferentes valores. */
 	{
 		for (j = 0; j < 5; j++)
 		{
-			matriz[i][j] = i + j; // pppula a matriz com a soma de i + j
+			matriz[i][j] = i + j; // popula a matriz com a soma de i + j
 		}
 	}
 	
