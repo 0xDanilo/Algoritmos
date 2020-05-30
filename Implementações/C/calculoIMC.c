@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main() 
+{
 	float peso, altura, imc;
 
 	puts("Digite o seu peso: ");
@@ -16,19 +17,24 @@ int main() {
 
 	printf("Seu IMC é: %.2f.\n", imc );
 
-	if (imc < 20) {
+	if (imc < 20) 
+	{
 		puts("Abaixo do peso.");
 	}
-		else if (imc <= 25) {
+		else if (imc <= 25) 
+		{
 			puts("Peso normal");
 		}
-			else if (imc <= 30) {
+			else if (imc <= 30) 
+			{
 				puts("Excesso de peso.");
 			}
-				else if (imc <= 35) {
+				else if (imc <= 35) 
+				{
 					puts("Obesidade.");
 				}
-					else {
+					else 
+					{
 						puts("Obesidade morbida.");
 					}
 
