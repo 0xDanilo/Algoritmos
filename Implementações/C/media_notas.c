@@ -5,13 +5,13 @@
 #include <stdio.h>
 
 int main() {
- char nome[3][10] = {}; //Eis a questão.
- float n1 [4] = {}; 
- float n2 [4] = {}; 
- float n3 [4] = {}; 
- float n4 [4] = {}; 
- float media [4] = {};
- int contador;
+char nome[3][10] = {}; //Eis a questão.
+float n1 [4] = {}; 
+float n2 [4] = {}; 
+float n3 [4] = {}; 
+float n4 [4] = {}; 
+float media [4] = {};
+int contador;
 
  for (int contador = 0; contador < 3; contador++)
  {
@@ -43,5 +43,7 @@ int main() {
  	printf("Média: %.2f\n", media[contador]);
 
  }
+ 
+       return 0;
 
 }
