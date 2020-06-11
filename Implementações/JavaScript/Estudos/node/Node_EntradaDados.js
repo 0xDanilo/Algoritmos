@@ -31,10 +31,9 @@ function verificaIdade(nome) {
 }
 
 //Interação com o usuário:
-entradaDados.question("Qual usuario você desaja verificar a idade? ", function(nome) {
+entradaDados.question("Qual usuario você deseja verificar a idade? ", function(nome) {
     verificaIdade(nome);
      entradaDados.close();
-    
 });
 
 entradaDados.on("close", function() {
