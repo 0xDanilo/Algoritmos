@@ -17,10 +17,8 @@ let GPS = {
 console.log(`Estamos ancorados em [${GPS.latitude}, ${GPS.longitude}].`);
 
 va_para_leste(GPS);
-
 console.log(`Navegando!! Agora estamos em [${GPS.latitude}, ${GPS.longitude}].`);
 
 va_para_leste(GPS);
-
 console.log(`Navegando!! Agora estamos em [${GPS.latitude}, ${GPS.longitude}].`);
 
