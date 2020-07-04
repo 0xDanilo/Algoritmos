@@ -4,12 +4,9 @@
 
 ## Sintaxe
 
-A sintaxe utilizada será a ensinada nos livros da **UniCesumar**, não utilizarei o **VisuALG**, seguindo a orientação dos professores.
+A sintaxe utilizada no pseudo-código será a ensinada nos livros da **UniCesumar**.
 
 ## Implementações
 
 Escrevi a algumas [implementações](https://github.com/0xDanilo/Algoritimos/tree/master/Implementa%C3%A7%C3%B5es) para praticar. 
 
-## Faça você mesmo!
-
-Envie suas modificações, correções, sugestões, etc, para o branch [desenvolvimento](https://github.com/0xDanilo/Algoritimos/tree/desenvolvimento).
